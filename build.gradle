@@ -25,7 +25,34 @@ dependencies {
 publishing {
     publications {
         mavenJava(MavenPublication) {
+            groupId = 'com.github.jsjg73'
+            artifactId = 'qclass-cycle-guard-spring-boot-starter'
+            version = project.version
+
             from components.java
+
+            pom {
+                name = 'qclass-cycle-guard-spring-boot-starter'
+                description = 'Spring Boot starter to guard against Q-class circular dependencies'
+                url = 'https://github.com/jsjg73/qclass-cycle-guard-spring-boot-starter'
+                licenses {
+                    license {
+                        name = 'The Apache License, Version 2.0'
+                        url = 'https://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id = 'jsjg73'
+                        name = 'jsjg73'
+                        email = 'kjs930703@gmail.com'
+                    }
+                }
+                scm {
+                    connection = 'scm:git:git://github.com/jsjg73/qclass-cycle-guard-spring-boot-starter.git'
+                    url = 'https://github.com/jsjg73/qclass-cycle-guard-spring-boot-starter'
+                }
+            }
         }
     }
 }
