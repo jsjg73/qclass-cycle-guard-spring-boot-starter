@@ -7,8 +7,8 @@ group = 'io.github.jsjg73'
 version = '0.1.1'
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
     withSourcesJar()
     withJavadocJar()
 }
@@ -19,6 +19,7 @@ repositories {
 
 dependencies {
     compileOnly 'org.springframework.boot:spring-boot-autoconfigure:3.3.3'
+    compileOnly 'org.slf4j:slf4j-api:2.0.13'
 }
 
 publishing {
