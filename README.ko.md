@@ -27,7 +27,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.jsjg73:qclass-cycle-guard-spring-boot-starter:v0.1.1'
+    implementation 'com.github.jsjg73:qclass-cycle-guard-spring-boot-starter:v0.1.3'
 }
 ```
 
@@ -43,7 +43,7 @@ dependencies {
 <dependency>
     <groupId>com.github.jsjg73</groupId>
     <artifactId>qclass-cycle-guard-spring-boot-starter</artifactId>
-    <version>v0.1.1</version>
+    <version>v0.1.3</version>
 </dependency>
 ```
 
